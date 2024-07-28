@@ -1,0 +1,1 @@
+Uma calculadora que faz cálculos simples entre números
