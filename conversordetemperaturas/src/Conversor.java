@@ -5,24 +5,24 @@ import java.util.Scanner;
 public class Conversor {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Conversor de temperaturas: Graus Celsius, Graus Fahrenheit e Kelvin");
+        System.out.println("Conversor de temperaturas: Grau Celsius, Grau Fahrenheit e Kelvin");
         int opcao = 0;
         double temperatura = 0;
         DecimalFormat df = new DecimalFormat("0.##");
         
     
         while (true) { 
-            System.out.println("Digite de 0 a 6 para continuar:\n1-Celsius para Fahrenheit\n2-Celsius para Kelvin\n3-Fahrenheit para Celsius\n4-Fahrenheit para Kelvin\n5-Kelvin para Celsius\n6-Kelvin para Fahrenheit\n0-Encerrar");
+            System.out.print("1-Celsius para Fahrenheit\n2-Celsius para Kelvin\n3-Fahrenheit para Celsius\n4-Fahrenheit para Kelvin\n5-Kelvin para Celsius\n6-Kelvin para Fahrenheit\n0-Encerrar\nDigite de 0 a 6 para continuar: ");
             try {
                 opcao = scanner.nextInt();  
                 if (opcao >= 0 && opcao <=6){
                     break;
                 } else {
-                    System.out.println("Digite apenas números de 0 a 6");
+                    System.out.println("Erro: Digite apenas números de 0 a 6");
                 }
              
             } catch (InputMismatchException e) {
-                System.out.println("Digite apenas números de 0 a 6");
+                System.out.println("Erro: Digite apenas números de 0 a 6");
                 scanner.next();
             }
         }
