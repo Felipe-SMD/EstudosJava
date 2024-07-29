@@ -1,1 +1,1 @@
-Um conversor de temperaturas entre Graus Celsius, Graus Fahrenheit e Kelvin
+Um conversor de temperaturas entre Grau Celsius, Grau Fahrenheit e Kelvin
