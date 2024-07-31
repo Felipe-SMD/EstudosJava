@@ -1,1 +1,1 @@
-Calculadora de figuras de geometria plana (incompleto)
+Calculadora de área de figuras de geometria plana (incompleto)
